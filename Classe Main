@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        // Criando objetos da classe Produto
+        //Criando objetos da classe Produto
         Produto produto1 = new Produto(1, "Notebook", 3500.00);
         Produto produto2 = new Produto(2, "Smartphone", 1500.00);
 
-        // Alterando os atributos de um produto usando setters
+        //Alterando os atributos de um produto usando setters
         produto2.setNome("Tablet");
         produto2.setPreco(1200.00);
 
-        // Exibindo os detalhes dos produtos
+        //Exibindo os detalhes dos produtos
         produto1.exibirDetalhes();
         produto2.exibirDetalhes();
     }
